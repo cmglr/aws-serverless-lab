@@ -8,7 +8,7 @@ module.exports.login = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: "Login exitoso",
+      message: "Login exitoso LUEGO DE CAMBIO APLICADO CON GITHUB ACTIONS",
       token: "abc123"
     })
   };
